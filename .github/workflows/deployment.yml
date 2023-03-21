@@ -4,6 +4,7 @@ on:
     # main has to be restricted from normal push,
     # so this workflow runs only on a merged Pull Request
     branches: [ main ]
+  workflow_dispatch:
 
 # Sets the GITHUB_TOKEN permissions to allow deployment to GitHub Pages
 permissions:
