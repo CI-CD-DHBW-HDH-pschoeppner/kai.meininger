@@ -6,8 +6,8 @@
 
   $: filteredTodos = todos.filter((todo) => {
     // Hier muss ein boolean zurückgegeben werden, der bestimmt, ob das Item (todo) angezeigt wird, oder nicht
-      const lowerCaseSearchString = searchString.toLowerCase();
-      return todo.value.toLowerCase().includes(lowerCaseSearchString);
+    const lowerCaseSearchString = searchString.toLowerCase();
+    return todo.value.toLowerCase().includes(lowerCaseSearchString);
   });
 
   let searchString = "";
